@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Div e span</title>
+	<style type="text/css">
+		#aula{
+			background: lightcoral;
+		}
+		#topo{
+			background: lightblue;
+		}
+		#conteudo{
+			background: lightgoldenrodyellow;
+		}
+		#rodape{
+			background: lightgreen;
+		}
+		#assinatura{
+			background: green;
+		}
+		.produto{
+			background: lightgray;
+			margin:  10px;
+		}
+		.azul{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="aula">
+			<h2>Div</h2>
+	<ul>
+		<li>Vem de divisão</li>
+		<li>Por padrao ocupa todo espaçamento da tela (elemento do tipo block)</li>
+	</ul>
+			<h2>Span</h2>
+	<ul>
+		<li>Elemento do tipo inline: poe uma linha na frente da outra</li>
+	</ul>
+	<h3>Ambos usados para criar containers genéricos</h3>
+	</div>	
+
+
+	<div id="topo">
+		<img src="https://source.unsplash.com/random/200x100" alt="logo">
+
+		<ul>
+			<li>Home/</li>
+			<li>Produtos/</li>
+			<li>Contato</li>
+		</ul>
+	</div>
+	<div id="conteudo">
+		<div class="produto">
+			Produto1
+		</div>
+		<div class="produto">
+			Produto2
+		</div>
+		<div class="produto">
+			Produto3
+		</div>
+	</div>
+
+	<div id="rodape">Todos os direitos reservados</div>
+
+	<span id="assinatura">Span</span>
+	<span>Produto1</span>
+	<span class="produto">Produto2</span>
+	<span class="azul">Produto3</span>
+
+</body>
+</html>

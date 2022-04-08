@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>id e classes</title>
+
+	<style type="text/css">
+		li{
+			color: red;
+		}
+		.azul{
+			color: blue;
+		}
+		#principal{
+			background: lightgray;
+		}
+		#cabecalho{
+			background: lightblue;
+		}
+		#conteudo-principal{
+			background: lightpink;
+		}
+		.coluna{
+			
+		}
+	</style>
+</head>
+<body id="principal">
+	
+	<h2>Classe</h2>	
+	<ul>
+		<li class="azul">Pode ser usada diversas vezes</li>
+		<li>Ex: Passageiros do sexo masculino no trem</li>
+		<li>O . define q é uma classe</li>
+		<li>Para usar a classe poe dentro da tag class="nome_da_class"</li>
+		<li class="azul">Geralmente trabalha a exceção ex: tds li red e vc quer alguns blue</li>
+
+	</ul>
+
+	<h2>ID</h2>	
+	<ul>
+		<li>Só pode ser usado uma única vez</li>
+		<li>Ex: Passageiro 1 do trem</li>
+		<li>O # define que é um id</li>
+		<li>Usa 1x por página, para estruturar o site, põe no body. Ex: id="principal"</li>
+		<li>Vc até pode usar id em mais de uma tag, mas n é a recomendação; Se precisar use classe.</li>
+		<li>Exceção: vc estruturar seu site e usar ids para cada estrutura (ex: cabecalho e conteudo principal)</li>
+	</ul>
+
+	<div id="cabecalho">
+		<ul>
+			<li>Home/</li>
+			<li>Quem somos/</li>
+			<li>Contato/</li>
+
+		</ul>
+	</div>
+	
+	<div id="conteudo-principal">
+		<div class="coluna">Coluna1</div>
+		<div class="coluna">Coluna2</div>
+		<div class="coluna">Coluna3</div>
+	</div>
+</body>
+</html>
