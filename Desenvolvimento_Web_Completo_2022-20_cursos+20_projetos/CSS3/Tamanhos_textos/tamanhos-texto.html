@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tamanhos de texto</title>
+	<style type="text/css">
+
+		.texto-p-100{
+			font-size: 100%;
+		}
+
+		.bg-p{
+			background: lightgray;
+
+		}
+
+		.container-pai{
+			font-size: 100px;
+		}
+
+		.container-em{
+			font-size: 0.3em; /*passa do valor 100px (pai) para 30px*/
+		}
+		
+	</style>
+</head>
+<body>
+	<ul>
+		<li>px = tamanho em pixel</li>
+		<li>% = tamanho relativo (ex: 100%=tamanho default do texto da tag)</li>
+		<li>em: proporcional ao container pai (bom para manter proporcao de texto nos sites, ex, fixar o body em pixels e modificar o resto tudo com em -> se precisar mudar muda em um lugar apenas (body))</li>
+	</ul>
+
+	<div class="bg-p">
+		<p class="texto-p-100">100% paragrafo</p>
+		<p >paragrafo normal</p>
+	</div>
+
+	<div class="container-pai">
+		100px do container-pai
+		<h2 class="container-em">Container-em-> font-size:0.3em;</h2>
+	</div>
+</body>
+</html>
