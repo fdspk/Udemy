@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bordas</title>
+	<style type="text/css">
+		#conteudo{
+			border: 1px solid red; /*espessura tipo e cor*/
+
+		}
+		#conteudo-full{
+			/*border: 15px ridge blue;*/
+			border-color: blue red green yellow; /*sentido horario*/
+			border-width: 15px 10px 5px 20px;
+			/*border-style: ridge dotted dashed outset;*/
+			border-style: ridge dotted;/* sup/inf e laterais */
+		}
+		
+	</style>
+</head>
+<body id="conteudo-full">
+	<p>Body ocupa o espaço do conteudo</p>
+	<div id="conteudo">
+		Bordas<br>
+		Bordas<br>
+		Bordas<br>
+	</div>
+
+	<ul>Tipos
+		<li>dotted</li>
+		<li>dashed</li>
+		<li>solid</li>
+		<li>double</li>
+		3D:
+		<li>groove</li>
+		<li>ridge</li>
+		<li>inset</li>
+		<li>outset</li>
+		other:
+		<li>none</li>
+		<li>hidden</li>
+	</ul>
+</body>
+</html>
