@@ -1,0 +1,11 @@
+p{
+	color: yellow;
+	background: lightseagreen;
+	font: italic small-caps bold 30px Arial, "Arial Narrow", sans-serif ;
+	text-decoration: underline;
+}
+
+body{
+	background: url('https://source.unsplash.com/random') no-repeat center center;
+
+}
