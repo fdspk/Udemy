@@ -1,0 +1,49 @@
+html{
+	background-color: #892123;
+	color: white;
+	font-family: "Book Antiqua Italic", "Book Antiqua", sans-serif;
+	font-size:30px ;
+	font-style: italic;
+}
+table, tr{
+	width: 800px;
+}
+
+/*td{
+	border: 1px solid;
+}*/
+.menu{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.item-menu{
+	width: 25%;
+}
+.active{
+	color: #21b96b;
+}
+a{
+	color:  white;
+	text-decoration: none;
+
+}
+a:hover{
+	color: #3cb9e1;
+}
+
+p{
+	font-size: 0.7em;
+}
+.conteudo{
+	background-color: #AF292D;
+	border:  1px solid;
+}
+footer{
+	font-size: 0.5em;
+}
+.duascolunas{
+	width: 70%;
+}
+.portfolio{
+	border: 5px solid #892123;
+}
