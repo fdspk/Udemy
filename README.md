@@ -6,6 +6,6 @@
   </li>
   <li>
     Basic CSS:<br>
-    https://bellagoth.fabianakraft.repl.co/index.html
+    https://BellaGoth.fabianakraft.repl.co
   </li>
 </ol>
