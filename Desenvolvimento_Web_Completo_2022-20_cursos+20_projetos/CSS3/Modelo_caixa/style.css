@@ -1,0 +1,55 @@
+/*Modelo caixa (box model)
+padding= espacamento interno
+margin= espacamento externo
+*/
+
+.conteudo{
+	border:  1px solid red;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+
+	/* padding: 20px 20px 30px 50px; -> sentido horario comecando no top */
+	/* padding: 20px; -> todos sao =20px */
+	/* padding: 20px 5px; -> top e bottom=20px & left e right=5px*/
+
+	width: 200px; /*Obs: width muda area em q o texto ta contido, padding adiciona espaco em branco dentro da caixa, logo n muda area q o texto encobre*/
+
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+
+	/* margin: 20px 20px 30px 50px; -> sentido horario comecando no top */
+	/* margin: 20px; -> todos sao =20px */
+	/* margin: 20px 5px; -> top e bottom=20px & left e right=5px*/
+
+	/*OBS:  acontece algo estranho, pois mesmo mudando margin-top, quando entra em contato com a bottom, permanece o maior valor.
+	 Isso é chamado de margin-collapse.*/
+}
+
+.margin-collapse{
+margin-bottom: 30px;
+border:  1px solid blue;
+}
+.margin-collapse2{
+	margin-top: 10px;
+	border:  1px solid blue;
+}
+
+/* neste caso, a margem que vale é a maior!!! */
+
+
+/*noticia*/
+#noticia{
+	border: 1px solid gray;
+	background: lightblue;
+	padding: 10px;
+	margin: 10px;
+}
+
+h2{
+	border: 1px solid green;
+	margin: 0px; /*tirar margem padrão do h2*/
+}
